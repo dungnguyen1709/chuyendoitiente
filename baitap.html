@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="chuyendoi.js"></script>
+</head>
+<body>
+<div>
+    <form>
+        <label for="amount">Amount</label>
+        <br>
+        <input id="amount" type="text" size="15px"/>
+    </form>
+</div>
+<div>
+    <p>From Currency</p>
+    <select id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="VND">VND</option>
+    </select>
+</div>
+<div>
+    <p>To Currency</p>
+    <select id="toCurrency">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+</div>
+<br>
+<div>
+    <button type="button" onclick="convert()">Convert</button>
+</div>
+<br>
+<div>
+    <span>Result :</span>
+    <span id="result"></span>
+
+</div>
+</body>
+</html>
